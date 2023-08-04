@@ -4,6 +4,7 @@ function resolve(dir) {
   return path.join(__dirname, dir)
 }
 module.exports = defineConfig({
+  publicPath: "/admin",
   transpileDependencies: true,
   productionSourceMap: false,
   devServer: {
